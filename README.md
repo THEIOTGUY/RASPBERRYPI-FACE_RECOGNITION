@@ -24,6 +24,7 @@ sudo pip install opencv-contrib-python
 sudo nano /etc/dphys-swapfile
 Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048.
 Press Ctrl-X, Y and then Enter to save your changes to dphys-swapfile.
+sudo systemctl restart dphys-swapfile
 sudo pip install face_recognition
 sudo pip install imutils.video
 sudo pip install pickle
