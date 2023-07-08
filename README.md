@@ -20,13 +20,13 @@ First we have to setup our camera for raspberry pi,follow the following guide to
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0
 After setting up the camera we have to install following libraries on our raspberry pi:
 `````
-sudo pip install opencv-contrib-python
+pip3 install opencv-contrib-python
 sudo nano /etc/dphys-swapfile
 //Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048
 sudo systemctl restart dphys-swapfile
-pip install face_recognition
-pip install imutils.video
-pip install pickle
+pip3 install face_recognition
+pip3 install imutils.video
+pip3 install pickle
 
 `````
 First we have to create a Dataset of your photos: (Change the 'Ayush' from the code to your name), this code will create a folder name "dataset" which will have another folder with your name, which will contain all your images.After running this code click 'space' from your keyboard to take pictures, and once you are done press 'ESC' from your keyboard.
