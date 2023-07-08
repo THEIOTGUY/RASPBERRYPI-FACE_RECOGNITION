@@ -22,8 +22,7 @@ After setting up the camera we have to install following libraries on our raspbe
 `````
 sudo pip install opencv-contrib-python
 sudo nano /etc/dphys-swapfile
-Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048.
-Press Ctrl-X, Y and then Enter to save your changes to dphys-swapfile.
+//Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048
 sudo systemctl restart dphys-swapfile
 sudo pip install face_recognition
 sudo pip install imutils.video
