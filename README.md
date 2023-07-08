@@ -24,9 +24,9 @@ sudo pip install opencv-contrib-python
 sudo nano /etc/dphys-swapfile
 //Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048
 sudo systemctl restart dphys-swapfile
-sudo pip install face_recognition
-sudo pip install imutils.video
-sudo pip install pickle
+pip install face_recognition
+pip install imutils.video
+pip install pickle
 
 `````
 First we have to create a Dataset of your photos: (Change the 'Ayush' from the code to your name), this code will create a folder name "dataset" which will have another folder with your name, which will contain all your images.After running this code click 'space' from your keyboard to take pictures, and once you are done press 'ESC' from your keyboard.
