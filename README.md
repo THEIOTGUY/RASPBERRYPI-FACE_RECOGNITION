@@ -20,6 +20,7 @@ First we have to setup our camera for raspberry pi,follow the following guide to
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0
 After setting up the camera we have to install following libraries on our raspberry pi:
 `````
+pip3 install opencv-python
 pip3 install opencv-contrib-python
 sudo nano /etc/dphys-swapfile
 //Once the file is open, comment out the line CONF_SWAPSIZE=100 and add CONF_SWAPSIZE=2048
